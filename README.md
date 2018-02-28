@@ -36,7 +36,7 @@ $ ./configure --prefix=/usr/local/php7 \
 --with-fpm-user=nginx \
 --with-fpm-group=nginx \
 --with-gd \
---with-iconv \
+--with-iconv=/usr/local \
 --with-zlib \
 --enable-xml \
 --enable-shmop \
